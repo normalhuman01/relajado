@@ -1,0 +1,19 @@
+{
+  "name": "tranquilo",
+  "version": "1.0.7",
+  "description": "HTTP Middleware Logger for Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./test/script.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
