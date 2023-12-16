@@ -1,10 +1,10 @@
-# Tranquilo - Express.js HTTP Middleware Logger
+# Relajado - Express.js HTTP Middleware Logger
 
-[![npm](https://img.shields.io/npm/v/tranquilo?style=for-the-badge)](https://www.npmjs.com/package/tranquilo)
-[![GitHub](https://img.shields.io/github/v/release/normalhuman/tranquilo?style=for-the-badge&logo=github&logoColor=white)](https://github.com/normalhuman01/tranquilo)
+[![npm](https://img.shields.io/npm/v/relajado?style=for-the-badge)](https://www.npmjs.com/package/relajado)
+[![GitHub](https://img.shields.io/github/v/release/normalhuman/relajado?style=for-the-badge&logo=github&logoColor=white)](https://github.com/normalhuman01/relajado)
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.normalhuman.com)
 
-Welcome to Tranquilo, the Middleware Logger for Express.js, a powerful tool to streamline and enhance the logging of HTTP requests and responses in your Express.js applications.
+Welcome to Relajado, the Middleware Logger for Express.js, a powerful tool to streamline and enhance the logging of HTTP requests and responses in your Express.js applications.
 
 Logging is an essential aspect of understanding your application's behavior, diagnosing issues, and monitoring performance. Our middleware logger offers a user-friendly solution that allows you to easily track request and response details, response time, and status codes.
 
@@ -21,23 +21,23 @@ Logging is an essential aspect of understanding your application's behavior, dia
 
 ## Installation
 
-Install Tranquilo with npm
+Install relajado with npm
 
 ```bash
-  npm install tranquilo
+  npm install relajado
 ```
 
 ## Usage
 
-Integrate Tranquilo into your Express.js application:
+Integrate relajado into your Express.js application:
 
 ```javascript
 const express = require('express');
-const tranquilo = require('tranquilo');
+const relajado = require('relajado');
 
 const app = express();
 
-app.use(tranquilo());
+app.use(relajado());
 
 app.get('/', (req, res) => {
   res.send('Hello, World!');
@@ -50,7 +50,7 @@ app.listen(3000, () => {
 
 ## Custom Configuration
 
-Tranquilo supports various format strings for customizing the logged output. You can specify a format string when initializing the middleware. Available format strings include:
+relajado supports various format strings for customizing the logged output. You can specify a format string when initializing the middleware. Available format strings include:
 
 - **America**: A custom format for American-style logging.
 
@@ -61,7 +61,7 @@ Tranquilo supports various format strings for customizing the logged output. You
 Example of using a custom format:
 
 ```javascript
-app.use(tranquilo('america'));
+app.use(relajado('america'));
 ```
 
 ## Features
@@ -73,4 +73,4 @@ app.use(tranquilo('america'));
 
 ## Contributing
 
-We welcome contributions from the open-source community. If you have ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/normalhuman01/tranquilo).
+We welcome contributions from the open-source community. If you have ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/normalhuman01/relajado).
