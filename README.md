@@ -1,8 +1,8 @@
 # Tranquilo - Express.js HTTP Middleware Logger
 
 [![npm](https://img.shields.io/npm/v/tranquilo?style=for-the-badge)](https://www.npmjs.com/package/tranquilo)
-[![GitHub](https://img.shields.io/github/v/release/JordanVera/tranquilo?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JordanVera/tranquilo)
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.jordanvera.com)
+[![GitHub](https://img.shields.io/github/v/release/normalhuman/tranquilo?style=for-the-badge&logo=github&logoColor=white)](https://github.com/normalhuman01/tranquilo)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.normalhuman.com)
 
 Welcome to Tranquilo, the Middleware Logger for Express.js, a powerful tool to streamline and enhance the logging of HTTP requests and responses in your Express.js applications.
 
@@ -73,4 +73,4 @@ app.use(tranquilo('america'));
 
 ## Contributing
 
-We welcome contributions from the open-source community. If you have ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/JordanVera/tranquilo).
+We welcome contributions from the open-source community. If you have ideas, bug reports, or feature requests, please open an issue on the [GitHub repository](https://github.com/normalhuman01/tranquilo).
